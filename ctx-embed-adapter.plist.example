@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>local.ctx-embed-adapter</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/node</string>
+    <string>/Users/YOUR_USER/.local/share/ctx-embed-adapter/server.mjs</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>OPENROUTER_ENV_FILE</key><string>/Users/YOUR_USER/.config/ctx-embed-adapter/.env</string>
+  </dict>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>ThrottleInterval</key><integer>10</integer>
+  <key>StandardOutPath</key><string>/Users/YOUR_USER/Library/Logs/ctx-embed-adapter.log</string>
+  <key>StandardErrorPath</key><string>/Users/YOUR_USER/Library/Logs/ctx-embed-adapter.log</string>
+</dict>
+</plist>

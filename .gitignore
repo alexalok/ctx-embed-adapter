@@ -1,0 +1,5 @@
+codex-in-progress
+.DS_Store
+*.log
+.env
+.env.*
